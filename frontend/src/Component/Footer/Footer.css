@@ -1,0 +1,48 @@
+/* Footer.css */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding to reduce height */
+    background-color: #f8f9fa; /* Light background color */
+    border-top: 1px solid #eaeaea; /* Light border at the top */
+    margin-top: auto; /* Pushes the footer to the bottom */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 30px; /* Adjust height of the logo */
+  }
+  
+  .footer-text {
+    margin-left: 10px; /* Space between logo and text */
+    color: #6c757d; /* Muted text color */
+  }
+  
+  .footer-social {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-item {
+    margin-left: 10px; /* Space between social icons */
+  }
+  
+  .footer-social a {
+    color: #343a40; /* Dark color for social icons */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-social a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  .text-orange{
+    color: orange /* Text color for button */
+  }

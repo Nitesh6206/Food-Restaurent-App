@@ -1,0 +1,71 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Optional: adds a blur effect */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  position: sticky; /* Make navbar sticky */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar .nav-link {
+  color: white; /* Text color for navbar links */
+  transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.navbar .nav-link:hover {
+  color: #ffcc00; /* Color change on hover */
+}
+
+.navbar .dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.9); /* Dropdown background */
+}
+.nav-item:hover{
+  color:#ffcc00
+}
+
+.navbar .dropdown-item {
+  color: black; /* Dropdown item text color */
+}
+
+.navbar .dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Dropdown item hover background */
+}
+
+/* Button styling */
+.btn-orange {
+  background-color: orange; /* Orange button color */
+  color: white; /* Text color for button */
+  border: none; /* Remove border */
+  text-decoration: none; /* Remove underline */
+  text-underline-offset: none; /* Not needed, but kept for clarity */
+}
+
+
+.btn-orange:hover {
+  background-color: darkorange; 
+}
+.orange-text{
+  color:orange;
+
+}
+.btn-cart {
+  background-color: transparent; /* Transparent background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  position: relative; /* Needed for positioning the badge */
+}
+
+.cart-icon {
+  font-size: 24px; /* Size of the cart icon */
+  color: orange; /* Custom color for the cart icon */
+}
+
+.cart-icon:hover {
+  color: #ff6347; /* Darker shade on hover */
+}
+
+.badge {
+  font-size: 0.75rem; /* Smaller font size for the badge */
+  padding: 0.25em 0.4em; /* Adjust padding */
+}
+

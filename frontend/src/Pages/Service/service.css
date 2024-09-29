@@ -1,0 +1,18 @@
+.service-item {
+    background-color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .service-item:hover {
+    background-color: orange; /* Change background color on hover */
+  }
+  
+  .service-item h5 {
+    font-weight: bold; /* Make the heading bold */
+  }
+  
+  .service-item p {
+    color: #111111; /* Slightly darker text for description */
+  }
+  
